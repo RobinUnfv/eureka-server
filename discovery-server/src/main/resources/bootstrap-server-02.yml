@@ -14,8 +14,8 @@ eureka:
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://server-01.com:8762/eureka/, http://server-03.com:8763/eureka/
-  datacenter: "Robinzon"
-  environment: "Development"
+  datacenter: Robinzon
+  environment: Development
   instance:
     hostname: localhost
     preferIpAddress: false

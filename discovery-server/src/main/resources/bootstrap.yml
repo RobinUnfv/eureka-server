@@ -6,7 +6,7 @@ spring:
         name: discovery-server
     config:
       activate:
-        on-profile: mitocode
+        on-profile: server-01
 
 eureka:
   client:
